@@ -9,7 +9,7 @@ title = _("Welcome!")
 
 <p>Does your company use open source software? Probably. Open source software
 is great! But if too few of us pay the projects that so many of us depend on,
-then we have a &ldquo;free rider&dquo; problem. That's bad for all of us,
+then we have a &ldquo;free rider&rdquo; problem. That's bad for all of us,
 because it's not sustainable. You can help by paying open source projects on
 Gratipay!</p>
 
