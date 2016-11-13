@@ -26,6 +26,18 @@ if query:
         """, locals())
 
     if user.ADMIN:
+        if action in (None, 'search_usernames'):
+            results['usernames'] = website.db.all("""
+                SELECT username, avatar_url, similarity(username, %(q)s) AS rank
+                  FROM participants
+                 WHERE username %% %(q)s
+                   AND claimed_time IS NOT NULL
+                   AND NOT is_closed
+              ORDER BY rank DESC, username
+                 LIMIT 10
+            """, locals())
+
+    if user.ADMIN:
         if action in (None, 'search_emails'):
             results['emails'] = website.db.all("""
                 SELECT username, avatar_url, similarity(email_address, %(q)s) AS rank
