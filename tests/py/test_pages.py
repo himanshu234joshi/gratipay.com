@@ -134,10 +134,7 @@ class TestPages(Harness):
         assert self.client.GxT('/about/features/teams/').code == 302
 
     def test_about_payments(self):
-        assert "Payments" in self.client.GET('/about/features/payments').body.decode('utf8')
-
-    def test_about_payroll(self):
-        assert "Payroll" in self.client.GET('/about/features/payroll').body.decode('utf8')
+        assert "Payments" in self.client.GET('/about/features/').body.decode('utf8')
 
     def test_404(self):
         response = self.client.GET('/about/four-oh-four.html', raise_immediately=False)
