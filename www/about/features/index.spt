@@ -65,11 +65,15 @@ MasterCard, Discover, JCB, and American Express.</p>
 </h2>
 
 <p>Our credit card processor, Braintree, charges 2.9% + 30&#162; per
-transaction. We upcharge to cover this fee at cost, so that projects receive
+transaction. We upcharge givers to cover this fee at cost, so that projects receive
 the face value of the payment. For example, we'll charge $20.91 to cover a $20
-payment.</p>
+payment into Gratipay.</p>
 
 <p>Non-U.S. banks may assess foreign exchange and/or other fees.</p>
+
+<p>PayPal (our only <a href="#methods">payout method</a>) charges 2% on payout. 
+This fee is passed on to the project on payday and is capped at $1 for
+U.S. PayPal accounts.
 
 <p>Gratipay itself is <a href="/Gratipay/">funded on Gratipay</a>. We don't
 take a cut.<p>
