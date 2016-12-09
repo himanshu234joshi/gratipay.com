@@ -71,9 +71,9 @@ transaction. We upcharge givers to cover this fee at cost, so that projects rece
 the face value of the payment. For example, we'll charge $20.91 to cover a $20
 payment into Gratipay. Non-U.S. banks may assess foreign exchange and/or other fees.</p>
 
-<p>Projects receive <a href="#methods">payouts</a> via PayPal, which charges 2%.
+<p>Projects receive <a href="/about/features#receiving">payouts</a> via PayPal, which charges 2%.
 This fee is passed on to the project on payday and is capped at $1 for U.S. PayPal
-accounts.
+accounts.</p>
 
 <h2 id="uses">Where Do Payments Go?
     <a class="permalink" title="permalink" href="#uses">&#182;</a>
